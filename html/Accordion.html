@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="../Css/carousela.css">
+        <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/user-interface-components/100/Userinterface-12-512.png">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+<h1>Carousel Inside Accordion</h1>
+
+    <div class="images">
+        <div class="accordion"  data-accor="1" onclick="acc(this)">
+         <div type="button" >Carousel  Images</div>
+         <ion-icon  id="updown" name="chevron-down-outline"></ion-icon>
+        </div>
+        <div class="panel" data-accor="1">
+            <div class="prev"><ion-icon name="chevron-back-outline"></ion-icon> </div>
+          
+                <div id="carouselimg">
+            </div>
+            <div class="next"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+        </div>
+    </div>
+
+
+    <div class="data">
+        <div class="accordion" data-accor="2" onclick="acc(this)">
+        <div type="button ">Carousel Data </div>
+        <ion-icon id="up" name="chevron-down-outline"></ion-icon>
+    </div>
+    <div class="panel" data-accor="2">
+        <div class="preve"><ion-icon name="chevron-back-outline"></ion-icon> </div>
+        <div id="html2">
+            <div id="carouseldata">
+                
+            </div>
+        </div>
+        <div class="nexts"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+        </div>
+    </div>
+
+
+    <div class="location">
+        <div class="accordion" data-accor="3"  onclick="acc(this)"> 
+             <div type="button" >Carousel Locations </div>
+             <ion-icon id="arrows" name="chevron-down-outline"></ion-icon>
+    </div>
+    <div class="panel" data-accor="3">
+        <div class="prevt"><ion-icon name="chevron-back-outline"></ion-icon> </div>
+        <div id="html3">
+            <div id="carousellocations">
+                
+            </div>
+        </div>
+        <div class="nexxt"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+    </div>
+    </div>
+    </body>
+    <script src="../Js/carousela.js"></script>
+</html>
